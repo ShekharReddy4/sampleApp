@@ -10,6 +10,7 @@ namespace newConsoleApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Je;lad");
         }
     }
 }
