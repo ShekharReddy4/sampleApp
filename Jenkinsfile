@@ -20,7 +20,7 @@ pipeline {
         }
         stage('Deployment') {
             steps {
-                bat '\"${tool 'MSBuild'}\" newConsoleApp.sln'
+                bat \"${tool 'MSBuild'}\" newConsoleApp.sln
             }
         }
     }
